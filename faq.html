@@ -1,0 +1,185 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Include the above in your HEAD tag ---------->
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <title>Bizruntime</title>
+  <style type="text/css">
+      .faqHeader {
+          font-size: 27px;
+          margin: 20px;
+      }
+
+      .panel-heading [data-toggle="collapse"]:after {
+          font-family: 'Glyphicons Halflings';
+          content: "e072"; /* "play" icon */
+          float: right;
+          color: #F58723;
+          font-size: 18px;
+          line-height: 22px;
+          /* rotate "play" icon from > (right arrow) to down arrow */
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+      }
+
+      .panel-heading [data-toggle="collapse"].collapsed:after {
+          /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+          color: #454444;
+      }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top"> 		<!-- Master nav -->
+  			<!-- top nav -->
+  			<nav class="navbar navbar-top">
+
+  				<div class="container">
+  					<!-- left nav top -->
+  					<ul class="nav navbar-nav pull-left">
+  						<li><a href="#"><span class="glyphicon glyphicon glyphicon-bold text-white"><b>izruntime</b></span></a></li>
+
+  					</ul>
+  					<!-- right nav top -->
+  					<ul class="nav navbar-nav pull-right" style="padding:9px;">
+  						<input type="text" class="" name="username" placeholder="Username">
+  						<input type="text" class="" name="password" placeholder="Password">
+  						<a href="#" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-user"></span> Sign In</a>
+  						<a href="register.html" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-certificate"></span> Register</a>
+  					</ul>
+  				</div>
+
+  			</nav>
+
+  			<!-- down nav -->
+  			<nav class="navbar navbar-down">
+  				<div class="container">
+  					<div class="flex-container">
+  						<div class="navbar-header flex-item">
+  							<div class="navbar-brand" href="#">GeeksCoder</div>
+  						</div>
+  						<ul class="nav navbar-nav flex-item hidden-xs">
+                <li><a href="index.html">Home</a></li>
+  							<li><a href="about.html">About</a></li>
+  							<!-- <li><a href="forum.html">Forum</a></li> -->
+  							<li><a href="contact.html">Contact</a></li>
+  							<li><a href="faq.html">FAQ</a></li>
+  						</ul>
+  						<ul class="nav navbar-nav flex-item hidden-xs pull-right">
+  							<li><a href="#" class=""></a></li>
+  						</ul>
+  					</div>
+  				</div>
+  			</nav>
+
+  		</nav>		<!-- /master nav -->
+
+  				<div class="container">
+  			<div class="row">
+
+  				<div class="col-md-8">
+  					<h3>Example heading <span class="label label-default">New</span></h3>
+  				</div>
+
+
+
+
+  				<div class="col-md-4">
+
+  				</div>
+  			</div>
+  		</div>
+      <br/><br/><br/><br/><br/>
+
+      <div class="container ">
+      <div class="panel-group" id="faqAccordion">
+          <div class="panel panel-default ">
+              <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+                   <h4 class="panel-title">
+                      <a href="#" class="ing">What is GeeksCoder</a>
+                </h4>
+
+              </div>
+              <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+                  <div class="panel-body">
+                       <h5><span class="label label-primary">Answer</span></h5>
+
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                          </p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default ">
+              <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+                   <h4 class="panel-title">
+                      <a href="#" class="ing">How to change password</a>
+                </h4>
+
+              </div>
+              <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+                  <div class="panel-body">
+                       <h5><span class="label label-primary">Answer</span></h5>
+
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default ">
+              <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+                   <h4 class="panel-title">
+                      <a href="#" class="ing">How to block unknown people?</a>
+                </h4>
+
+              </div>
+              <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+                  <div class="panel-body">
+                       <h5><span class="label label-primary">Answer</span></h5>
+
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default ">
+              <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+                   <h4 class="panel-title">
+                      <a href="#" class="ing">How to find log ?</a>
+                </h4>
+
+              </div>
+              <div id="question3" class="panel-collapse collapse" style="height: 0px;">
+                  <div class="panel-body">
+                       <h5><span class="label label-primary">Answer</span></h5>
+
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <!--/panel-group-->
+  </div>
+
+</body>
+
+<!-- plugins -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</html>
